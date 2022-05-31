@@ -1,0 +1,233 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.340 align:middle line:90%
+
+
+00:00:05.340 --> 00:00:07.680 align:middle line:84%
+In this Developer
+Basics video, we
+
+00:00:07.680 --> 00:00:10.050 align:middle line:84%
+are going to take
+a close look at all
+
+00:00:10.050 --> 00:00:13.260 align:middle line:84%
+the attributes of the
+advanced or in-page player
+
+00:00:13.260 --> 00:00:15.700 align:middle line:90%
+implementation code.
+
+00:00:15.700 --> 00:00:18.270 align:middle line:84%
+This code is commonly
+used, but there
+
+00:00:18.270 --> 00:00:22.890 align:middle line:84%
+are a few attributes that almost
+no one thoroughly understands.
+
+00:00:22.890 --> 00:00:26.010 align:middle line:84%
+Let's take a look at the
+player code copied from Studio
+
+00:00:26.010 --> 00:00:28.050 align:middle line:90%
+that publishes the video.
+
+00:00:28.050 --> 00:00:30.930 align:middle line:84%
+The code has been formatted
+a bit using best practice
+
+00:00:30.930 --> 00:00:33.390 align:middle line:90%
+indentation convention.
+
+00:00:33.390 --> 00:00:36.000 align:middle line:84%
+First, let's go quickly
+through the attributes
+
+00:00:36.000 --> 00:00:38.550 align:middle line:90%
+that are commonly understood--
+
+00:00:38.550 --> 00:00:43.020 align:middle line:84%
+data-account for
+the account number,
+
+00:00:43.020 --> 00:00:51.660 align:middle line:84%
+data-player for the player ID,
+data-video--id for the video ID
+
+00:00:51.660 --> 00:00:56.880 align:middle line:84%
+of the video to load in the
+player, width and height,
+
+00:00:56.880 --> 00:01:01.170 align:middle line:84%
+data-playlist-id
+for the playlist
+
+00:01:01.170 --> 00:01:07.560 align:middle line:84%
+ID that will work if the player
+is configured to play playlist.
+
+00:01:07.560 --> 00:01:10.710 align:middle line:84%
+By the way, if you
+have a playlist ID,
+
+00:01:10.710 --> 00:01:14.010 align:middle line:84%
+you cannot also
+supply a video ID.
+
+00:01:14.010 --> 00:01:22.200 align:middle line:84%
+An error will result. You can
+use the data-playlist-video-id
+
+00:01:22.200 --> 00:01:23.670 align:middle line:90%
+with the playlist.
+
+00:01:23.670 --> 00:01:26.760 align:middle line:84%
+That attribute lets you
+set the initial video
+
+00:01:26.760 --> 00:01:28.140 align:middle line:90%
+to play in the playlist.
+
+00:01:28.140 --> 00:01:31.170 align:middle line:84%
+It lets you pick any
+video in the playlist
+
+00:01:31.170 --> 00:01:34.560 align:middle line:84%
+to be the initial
+video that is played.
+
+00:01:34.560 --> 00:01:36.540 align:middle line:84%
+Now we get to look at
+some attributes that
+
+00:01:36.540 --> 00:01:38.640 align:middle line:84%
+are a little more
+interesting, and one
+
+00:01:38.640 --> 00:01:41.910 align:middle line:90%
+that is very rarely used.
+
+00:01:41.910 --> 00:01:46.020 align:middle line:84%
+The controls= the empty
+string attribute is a Boolean
+
+00:01:46.020 --> 00:01:49.110 align:middle line:84%
+attribute which defines
+if the controls should
+
+00:01:49.110 --> 00:01:52.790 align:middle line:90%
+be shown in the player or not.
+
+00:01:52.790 --> 00:01:55.400 align:middle line:84%
+In earlier versions
+of the generated code,
+
+00:01:55.400 --> 00:01:59.270 align:middle line:84%
+simply the word "controls"
+would appear with no equal sign
+
+00:01:59.270 --> 00:02:01.480 align:middle line:90%
+and quote quote.
+
+00:02:01.480 --> 00:02:03.530 align:middle line:90%
+That still works, by the way.
+
+00:02:03.530 --> 00:02:06.550 align:middle line:84%
+You can also have
+controls="fish,"
+
+00:02:06.550 --> 00:02:07.630 align:middle line:90%
+and that works.
+
+00:02:07.630 --> 00:02:10.180 align:middle line:84%
+You can even say
+controls="false,"
+
+00:02:10.180 --> 00:02:12.430 align:middle line:90%
+and the controls will show up.
+
+00:02:12.430 --> 00:02:14.620 align:middle line:84%
+If you don't want the
+controls to appear,
+
+00:02:14.620 --> 00:02:19.930 align:middle line:84%
+simply remove any variation
+of that attribute.
+
+00:02:19.930 --> 00:02:22.840 align:middle line:84%
+Next on the list of sometimes
+misunderstood attributes
+
+00:02:22.840 --> 00:02:24.644 align:middle line:90%
+is data-application-id.
+
+00:02:24.644 --> 00:02:27.400 align:middle line:90%
+
+
+00:02:27.400 --> 00:02:29.860 align:middle line:90%
+This is for use with analytics.
+
+00:02:29.860 --> 00:02:33.760 align:middle line:84%
+This attribute lets you use
+the same player on multiple web
+
+00:02:33.760 --> 00:02:36.910 align:middle line:84%
+pages but get different
+player analytics
+
+00:02:36.910 --> 00:02:40.300 align:middle line:90%
+data for its use on each page.
+
+00:02:40.300 --> 00:02:43.600 align:middle line:84%
+For instance, you could have,
+on three different pages,
+
+00:02:43.600 --> 00:02:52.120 align:middle line:84%
+data-application-id="home," data
+application id="contact us,"
+
+00:02:52.120 --> 00:02:56.770 align:middle line:90%
+and data-application-id="faqs."
+
+00:02:56.770 --> 00:03:02.530 align:middle line:84%
+The analytics would be reported
+separately for each HTML page,
+
+00:03:02.530 --> 00:03:06.610 align:middle line:84%
+even though the same player
+is used on all three pages.
+
+00:03:06.610 --> 00:03:09.430 align:middle line:84%
+This is very useful
+and regularly used
+
+00:03:09.430 --> 00:03:12.430 align:middle line:90%
+for accurate player analytics.
+
+00:03:12.430 --> 00:03:16.150 align:middle line:84%
+The data-embed-attribute is
+very seldom used and therefore
+
+00:03:16.150 --> 00:03:17.800 align:middle line:90%
+not well understood.
+
+00:03:17.800 --> 00:03:21.400 align:middle line:84%
+The attribute reflects
+parent-child relationships
+
+00:03:21.400 --> 00:03:23.140 align:middle line:90%
+with players.
+
+00:03:23.140 --> 00:03:26.380 align:middle line:84%
+That's it, and even probably
+more detail than you
+
+00:03:26.380 --> 00:03:29.110 align:middle line:84%
+wanted to know about the
+advanced player implementation
+
+00:03:29.110 --> 00:03:30.660 align:middle line:90%
+code.
+
+00:03:30.660 --> 00:03:32.000 align:middle line:90%
