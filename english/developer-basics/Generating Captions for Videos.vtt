@@ -1,0 +1,291 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:00.630 align:middle line:90%
+
+
+00:00:00.630 --> 00:00:02.640 align:middle line:84%
+Closed captions can be
+added to your videos
+
+00:00:02.640 --> 00:00:04.530 align:middle line:84%
+to provide additional
+or interpretive
+
+00:00:04.530 --> 00:00:07.500 align:middle line:84%
+information to individuals
+who wish to access it.
+
+00:00:07.500 --> 00:00:10.230 align:middle line:84%
+Captions are necessary so
+the deaf and hard of hearing
+
+00:00:10.230 --> 00:00:13.440 align:middle line:84%
+can access the audio portion
+of video presentations.
+
+00:00:13.440 --> 00:00:15.990 align:middle line:84%
+In this video, we'll see how
+to automatically generate
+
+00:00:15.990 --> 00:00:17.550 align:middle line:90%
+captions for your videos.
+
+00:00:17.550 --> 00:00:20.454 align:middle line:90%
+[MUSIC PLAYING]
+
+00:00:20.454 --> 00:00:24.810 align:middle line:90%
+
+
+00:00:24.810 --> 00:00:28.350 align:middle line:84%
+Video Cloud Studio provides
+a caption generation feature
+
+00:00:28.350 --> 00:00:30.960 align:middle line:84%
+to automatically generate
+captions for newly
+
+00:00:30.960 --> 00:00:33.690 align:middle line:90%
+uploaded or existing videos.
+
+00:00:33.690 --> 00:00:35.790 align:middle line:84%
+Please reach out to
+your account manager
+
+00:00:35.790 --> 00:00:38.070 align:middle line:90%
+to have this feature enabled.
+
+00:00:38.070 --> 00:00:39.540 align:middle line:84%
+Let's look at the
+ways to generate
+
+00:00:39.540 --> 00:00:42.000 align:middle line:90%
+captions for your videos.
+
+00:00:42.000 --> 00:00:44.490 align:middle line:84%
+I'm going to start
+in the upload module.
+
+00:00:44.490 --> 00:00:48.150 align:middle line:84%
+When a dynamic delivery or a
+context aware ingest profile
+
+00:00:48.150 --> 00:00:51.060 align:middle line:84%
+has been selected, an
+auto captioning option
+
+00:00:51.060 --> 00:00:52.590 align:middle line:90%
+will be displayed.
+
+00:00:52.590 --> 00:00:55.500 align:middle line:90%
+Enable it to generate captions.
+
+00:00:55.500 --> 00:00:59.550 align:middle line:84%
+Select the language to generate
+the captions in, or select auto
+
+00:00:59.550 --> 00:01:02.250 align:middle line:84%
+detect to generate captions
+in the language spoken
+
+00:01:02.250 --> 00:01:03.840 align:middle line:90%
+in the video.
+
+00:01:03.840 --> 00:01:06.630 align:middle line:84%
+If a language is not
+selected, the video language
+
+00:01:06.630 --> 00:01:08.490 align:middle line:90%
+is auto detected.
+
+00:01:08.490 --> 00:01:10.350 align:middle line:84%
+Selecting a language
+will improve
+
+00:01:10.350 --> 00:01:12.330 align:middle line:84%
+the caption file
+generation time,
+
+00:01:12.330 --> 00:01:16.200 align:middle line:84%
+and may improve
+overall accuracy.
+
+00:01:16.200 --> 00:01:18.390 align:middle line:84%
+The label is displayed
+inside the player,
+
+00:01:18.390 --> 00:01:21.180 align:middle line:84%
+and allows the viewer
+to select a language.
+
+00:01:21.180 --> 00:01:25.440 align:middle line:84%
+If no label is supplied, the
+language code is displayed.
+
+00:01:25.440 --> 00:01:27.630 align:middle line:90%
+When finished, click Done.
+
+00:01:27.630 --> 00:01:30.600 align:middle line:84%
+Now, as videos are uploaded,
+captions will automatically
+
+00:01:30.600 --> 00:01:31.590 align:middle line:90%
+be generated.
+
+00:01:31.590 --> 00:01:34.300 align:middle line:90%
+
+
+00:01:34.300 --> 00:01:38.170 align:middle line:84%
+You can also generate captions
+using the Media module.
+
+00:01:38.170 --> 00:01:41.170 align:middle line:84%
+The first option is to
+select one or more videos,
+
+00:01:41.170 --> 00:01:43.420 align:middle line:84%
+and then click
+More, Auto Caption.
+
+00:01:43.420 --> 00:01:47.140 align:middle line:90%
+
+
+00:01:47.140 --> 00:01:50.580 align:middle line:84%
+You can also go into
+the video properties,
+
+00:01:50.580 --> 00:01:56.820 align:middle line:84%
+locate the text track
+section, and click Edit.
+
+00:01:56.820 --> 00:01:59.490 align:middle line:84%
+Notice there's an
+auto caption option.
+
+00:01:59.490 --> 00:02:02.230 align:middle line:90%
+I'm going to select it.
+
+00:02:02.230 --> 00:02:08.710 align:middle line:84%
+I'll select the language,
+and enter a label.
+
+00:02:08.710 --> 00:02:11.730 align:middle line:84%
+Remember, the label is
+displayed inside the player,
+
+00:02:11.730 --> 00:02:15.300 align:middle line:84%
+and allows the viewer to
+select the caption language.
+
+00:02:15.300 --> 00:02:21.170 align:middle line:84%
+When I'm done, I'll click Add
+Text Track, and then Save.
+
+00:02:21.170 --> 00:02:23.345 align:middle line:84%
+The caption generation
+process will begin.
+
+00:02:23.345 --> 00:02:26.220 align:middle line:90%
+
+
+00:02:26.220 --> 00:02:30.600 align:middle line:84%
+A message will appear when the
+auto captioning is complete.
+
+00:02:30.600 --> 00:02:34.900 align:middle line:84%
+Refresh the page to
+see the text tracks.
+
+00:02:34.900 --> 00:02:38.540 align:middle line:84%
+In all of these cases, after
+the caption files are generated,
+
+00:02:38.540 --> 00:02:40.090 align:middle line:84%
+they are automatically
+configured
+
+00:02:40.090 --> 00:02:43.180 align:middle line:84%
+as part of the video's
+text tracks properties.
+
+00:02:43.180 --> 00:02:47.080 align:middle line:84%
+Captions will appear immediately
+during video playback.
+
+00:02:47.080 --> 00:02:49.810 align:middle line:84%
+If you would like to review the
+captions before they appear,
+
+00:02:49.810 --> 00:02:52.260 align:middle line:90%
+you have two options.
+
+00:02:52.260 --> 00:02:55.340 align:middle line:84%
+First, you can
+deactivate the video.
+
+00:02:55.340 --> 00:02:58.400 align:middle line:84%
+Videos that are
+deactivated will not play.
+
+00:02:58.400 --> 00:03:00.950 align:middle line:84%
+Review the captions, and
+when they are approved,
+
+00:03:00.950 --> 00:03:03.490 align:middle line:90%
+activate the video.
+
+00:03:03.490 --> 00:03:06.870 align:middle line:84%
+You can also set the
+caption status to draft.
+
+00:03:06.870 --> 00:03:10.620 align:middle line:84%
+To do this, scroll to
+the top of the page,
+
+00:03:10.620 --> 00:03:15.860 align:middle line:84%
+and click on the CC button
+to open the caption editor.
+
+00:03:15.860 --> 00:03:18.510 align:middle line:84%
+Notice right now the
+status is published,
+
+00:03:18.510 --> 00:03:22.610 align:middle line:84%
+which means these captions
+will be displayed.
+
+00:03:22.610 --> 00:03:25.975 align:middle line:84%
+Click Save Draft to save
+the captions as a draft.
+
+00:03:25.975 --> 00:03:34.830 align:middle line:90%
+
+
+00:03:34.830 --> 00:03:38.550 align:middle line:90%
+Notice now this status is draft.
+
+00:03:38.550 --> 00:03:40.860 align:middle line:84%
+Review and edit the
+captions, and then
+
+00:03:40.860 --> 00:03:43.455 align:middle line:84%
+click Publish Text Track
+to publish the captions.
+
+00:03:43.455 --> 00:03:46.150 align:middle line:90%
+
+
+00:03:46.150 --> 00:03:47.590 align:middle line:90%
+One last note.
+
+00:03:47.590 --> 00:03:50.350 align:middle line:84%
+Third party partners can
+also be used to generate
+
+00:03:50.350 --> 00:03:52.540 align:middle line:90%
+captions for videos.
+
+00:03:52.540 --> 00:03:57.420 align:middle line:84%
+For more information, see
+marketplace.brightcove.com.
+
+00:03:57.420 --> 00:04:01.150 align:middle line:90%

@@ -1,0 +1,423 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.451 align:middle line:90%
+[MUSIC PLAYING]
+
+00:00:03.451 --> 00:00:05.430 align:middle line:90%
+
+
+00:00:05.430 --> 00:00:07.650 align:middle line:84%
+In this video, we'll see
+how to add interactivity
+
+00:00:07.650 --> 00:00:10.620 align:middle line:90%
+to an in-page experience.
+
+00:00:10.620 --> 00:00:12.240 align:middle line:84%
+Different types of
+interactions can be
+
+00:00:12.240 --> 00:00:14.340 align:middle line:90%
+added to an in-page experience.
+
+00:00:14.340 --> 00:00:16.710 align:middle line:84%
+In the slide here,
+the Animal World link
+
+00:00:16.710 --> 00:00:18.210 align:middle line:84%
+in the bottom left
+of the player is
+
+00:00:18.210 --> 00:00:21.600 align:middle line:84%
+an example of a link that
+appears as the video plays.
+
+00:00:21.600 --> 00:00:25.830 align:middle line:84%
+The upper right side of the
+player is displaying a card.
+
+00:00:25.830 --> 00:00:29.890 align:middle line:84%
+In-page experiences also
+support companion components.
+
+00:00:29.890 --> 00:00:31.830 align:middle line:84%
+The difference is that
+companion components
+
+00:00:31.830 --> 00:00:34.230 align:middle line:90%
+appear outside of the player.
+
+00:00:34.230 --> 00:00:36.930 align:middle line:84%
+In this example,
+as the video plays,
+
+00:00:36.930 --> 00:00:39.780 align:middle line:84%
+an image companion component
+is displayed on the right side
+
+00:00:39.780 --> 00:00:41.340 align:middle line:90%
+of the player.
+
+00:00:41.340 --> 00:00:46.410 align:middle line:84%
+Companion components can be
+custom HTML, images, or text.
+
+00:00:46.410 --> 00:00:48.270 align:middle line:84%
+In this training,
+we're going to focus
+
+00:00:48.270 --> 00:00:51.540 align:middle line:90%
+on link and card interactions.
+
+00:00:51.540 --> 00:00:52.200 align:middle line:90%
+OK.
+
+00:00:52.200 --> 00:00:55.380 align:middle line:84%
+So how do we add links and
+cards to our experience?
+
+00:00:55.380 --> 00:00:58.210 align:middle line:84%
+You need to start by
+selecting a video.
+
+00:00:58.210 --> 00:01:00.510 align:middle line:84%
+Note that you can choose to
+have a link or card appear
+
+00:01:00.510 --> 00:01:02.160 align:middle line:90%
+during all of the videos.
+
+00:01:02.160 --> 00:01:06.010 align:middle line:84%
+We'll see how to do that
+when we get to the hands-on.
+
+00:01:06.010 --> 00:01:08.430 align:middle line:84%
+Next, you need to
+click the Link or Card
+
+00:01:08.430 --> 00:01:12.030 align:middle line:84%
+icon in the Actions column
+associated with the video.
+
+00:01:12.030 --> 00:01:15.130 align:middle line:84%
+Once you do that, you can
+configure the properties.
+
+00:01:15.130 --> 00:01:18.090 align:middle line:84%
+For example, for a link, we
+would specify the link text
+
+00:01:18.090 --> 00:01:19.350 align:middle line:90%
+in the URL.
+
+00:01:19.350 --> 00:01:22.960 align:middle line:84%
+For a card, we'll have things
+like the title, description,
+
+00:01:22.960 --> 00:01:25.110 align:middle line:90%
+and image to display.
+
+00:01:25.110 --> 00:01:27.630 align:middle line:84%
+Then we'll also configure
+when these things display
+
+00:01:27.630 --> 00:01:28.890 align:middle line:90%
+and for how long.
+
+00:01:28.890 --> 00:01:31.600 align:middle line:90%
+It's pretty easy.
+
+00:01:31.600 --> 00:01:33.880 align:middle line:84%
+Once interactivity has
+been added to the video,
+
+00:01:33.880 --> 00:01:35.770 align:middle line:84%
+an icon will appear
+in the Interactivity
+
+00:01:35.770 --> 00:01:37.840 align:middle line:84%
+column indicating the
+type of interaction
+
+00:01:37.840 --> 00:01:39.610 align:middle line:90%
+that has been added.
+
+00:01:39.610 --> 00:01:42.370 align:middle line:84%
+You can see in this example,
+it looks like a card has
+
+00:01:42.370 --> 00:01:45.160 align:middle line:90%
+been added to the chimp video.
+
+00:01:45.160 --> 00:01:47.620 align:middle line:84%
+To edit or delete an
+interaction, just hover
+
+00:01:47.620 --> 00:01:50.350 align:middle line:84%
+over the interactivity icon
+and then click the pencil
+
+00:01:50.350 --> 00:01:54.130 align:middle line:90%
+to edit or trash can to delete.
+
+00:01:54.130 --> 00:01:57.610 align:middle line:84%
+Let's add some interactions
+to our experience.
+
+00:01:57.610 --> 00:02:02.570 align:middle line:84%
+I'm going to edit my
+experience and then click
+
+00:02:02.570 --> 00:02:05.750 align:middle line:90%
+Videos in the left navigation.
+
+00:02:05.750 --> 00:02:09.350 align:middle line:84%
+Let's add a link
+to the chimp video.
+
+00:02:09.350 --> 00:02:12.590 align:middle line:84%
+To add interactivity, you
+can click on the video title
+
+00:02:12.590 --> 00:02:14.810 align:middle line:84%
+and then click
+Add Interactivity.
+
+00:02:14.810 --> 00:02:18.660 align:middle line:90%
+
+
+00:02:18.660 --> 00:02:21.300 align:middle line:84%
+Or on the video list,
+click the appropriate icon
+
+00:02:21.300 --> 00:02:23.670 align:middle line:90%
+in the Actions column.
+
+00:02:23.670 --> 00:02:26.220 align:middle line:84%
+Hovering over the icons
+will show you what they do.
+
+00:02:26.220 --> 00:02:29.320 align:middle line:90%
+
+
+00:02:29.320 --> 00:02:32.550 align:middle line:84%
+I'm going to click
+on the Link icon.
+
+00:02:32.550 --> 00:02:35.070 align:middle line:84%
+Next, we'll configure
+the link properties.
+
+00:02:35.070 --> 00:02:39.210 align:middle line:84%
+I'll add the link
+text and link URL.
+
+00:02:39.210 --> 00:02:40.808 align:middle line:84%
+The playback behavior
+is what happens
+
+00:02:40.808 --> 00:02:41.850 align:middle line:90%
+when the link is clicked.
+
+00:02:41.850 --> 00:02:44.980 align:middle line:90%
+
+
+00:02:44.980 --> 00:02:48.050 align:middle line:84%
+Next, I'll click on
+the Configure link.
+
+00:02:48.050 --> 00:02:52.060 align:middle line:84%
+This is where we set when the
+link appears and for how long.
+
+00:02:52.060 --> 00:02:55.570 align:middle line:84%
+You can use exact times
+or use percentages.
+
+00:02:55.570 --> 00:02:57.460 align:middle line:84%
+The slider below
+the player can also
+
+00:02:57.460 --> 00:03:00.735 align:middle line:84%
+be used to configure the
+start time and duration.
+
+00:03:00.735 --> 00:03:02.110 align:middle line:84%
+Right now, it
+looks like it's set
+
+00:03:02.110 --> 00:03:03.940 align:middle line:84%
+to appear at the
+five-second point
+
+00:03:03.940 --> 00:03:06.800 align:middle line:90%
+and last for five seconds.
+
+00:03:06.800 --> 00:03:09.490 align:middle line:84%
+Notice there is an option to
+apply this interaction to all
+
+00:03:09.490 --> 00:03:12.860 align:middle line:90%
+the videos in the experience.
+
+00:03:12.860 --> 00:03:15.520 align:middle line:84%
+Finally, I'll click
+Design and decide where
+
+00:03:15.520 --> 00:03:17.320 align:middle line:90%
+I want the link to appear.
+
+00:03:17.320 --> 00:03:21.550 align:middle line:84%
+Let's do the bottom left
+corner of the player.
+
+00:03:21.550 --> 00:03:24.760 align:middle line:90%
+When I'm done, I'll click Save.
+
+00:03:24.760 --> 00:03:27.970 align:middle line:84%
+This dialog will list all the
+interactions on this video,
+
+00:03:27.970 --> 00:03:30.670 align:middle line:84%
+and can also be used to
+edit or delete interactions.
+
+00:03:30.670 --> 00:03:33.640 align:middle line:90%
+I'm going to close it.
+
+00:03:33.640 --> 00:03:36.070 align:middle line:84%
+Notice now there's a Link
+icon in the Interactivity
+
+00:03:36.070 --> 00:03:39.130 align:middle line:90%
+column for the chimp video.
+
+00:03:39.130 --> 00:03:42.400 align:middle line:84%
+Let's add a card to
+the elephant video.
+
+00:03:42.400 --> 00:03:46.480 align:middle line:84%
+I'll click the Card icon
+next to the elephant video.
+
+00:03:46.480 --> 00:03:49.340 align:middle line:84%
+It's pretty much the same
+process when adding a card.
+
+00:03:49.340 --> 00:03:52.670 align:middle line:84%
+However, the properties
+will be different.
+
+00:03:52.670 --> 00:03:55.030 align:middle line:84%
+I'm going to browse and
+select an image for the card.
+
+00:03:55.030 --> 00:03:58.120 align:middle line:90%
+
+
+00:03:58.120 --> 00:04:01.570 align:middle line:84%
+Notice as I start to configure
+the card, I can see a preview.
+
+00:04:01.570 --> 00:04:07.320 align:middle line:90%
+
+
+00:04:07.320 --> 00:04:11.070 align:middle line:84%
+You can see how these fields
+are being laid out on the card.
+
+00:04:11.070 --> 00:04:12.810 align:middle line:84%
+The playback behavior
+is what happens
+
+00:04:12.810 --> 00:04:14.680 align:middle line:90%
+when the link is clicked.
+
+00:04:14.680 --> 00:04:17.850 align:middle line:84%
+I can configure the video to
+pause when the card is opened
+
+00:04:17.850 --> 00:04:22.470 align:middle line:84%
+or have the video pause when the
+link and the card is clicked.
+
+00:04:22.470 --> 00:04:25.930 align:middle line:84%
+Next, I'll click on
+the Configure link.
+
+00:04:25.930 --> 00:04:29.268 align:middle line:84%
+This is where we set when the
+card appears and for how long.
+
+00:04:29.268 --> 00:04:30.810 align:middle line:84%
+These parameters
+are the same as they
+
+00:04:30.810 --> 00:04:33.300 align:middle line:90%
+were for the link we set up.
+
+00:04:33.300 --> 00:04:35.295 align:middle line:84%
+I'm going to select Show
+for the entire video.
+
+00:04:35.295 --> 00:04:38.060 align:middle line:90%
+
+
+00:04:38.060 --> 00:04:40.760 align:middle line:90%
+When I'm done, I'll click Save.
+
+00:04:40.760 --> 00:04:45.140 align:middle line:84%
+You can see the video now
+has a card interaction.
+
+00:04:45.140 --> 00:04:46.970 align:middle line:84%
+When I go back to
+the Videos page,
+
+00:04:46.970 --> 00:04:50.660 align:middle line:84%
+I can see that now we have
+a link and card configured.
+
+00:04:50.660 --> 00:04:52.850 align:middle line:84%
+To edit or delete any
+of these interactions,
+
+00:04:52.850 --> 00:04:54.080 align:middle line:90%
+just hover over the icon.
+
+00:04:54.080 --> 00:04:57.500 align:middle line:90%
+
+
+00:04:57.500 --> 00:04:58.960 align:middle line:90%
+Let's preview the experience.
+
+00:04:58.960 --> 00:05:04.790 align:middle line:90%
+
+
+00:05:04.790 --> 00:05:10.065 align:middle line:84%
+When I play the chimp
+video, after five seconds
+
+00:05:10.065 --> 00:05:10.940 align:middle line:90%
+the link will appear.
+
+00:05:10.940 --> 00:05:14.710 align:middle line:90%
+
+
+00:05:14.710 --> 00:05:19.780 align:middle line:84%
+When I play the elephant video,
+I can see the card indicator,
+
+00:05:19.780 --> 00:05:23.510 align:middle line:84%
+and I can click it
+to see the card.
+
+00:05:23.510 --> 00:05:26.320 align:middle line:84%
+Looks like everything
+is working.
+
+00:05:26.320 --> 00:05:30.630 align:middle line:84%
+In the next video, we'll see
+how to style the experience.
+
+00:05:30.630 --> 00:05:33.000 align:middle line:90%

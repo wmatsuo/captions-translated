@@ -1,0 +1,264 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.220 align:middle line:90%
+[MUSIC PLAYING]
+
+00:00:03.220 --> 00:00:05.520 align:middle line:90%
+
+
+00:00:05.520 --> 00:00:09.060 align:middle line:84%
+In this video, we'll add
+videos to our Experience.
+
+00:00:09.060 --> 00:00:13.020 align:middle line:84%
+To add videos to an in-page
+Experience, edit the Experience
+
+00:00:13.020 --> 00:00:16.059 align:middle line:84%
+and then click Videos
+in the left navigation.
+
+00:00:16.059 --> 00:00:18.630 align:middle line:90%
+Click the Add Videos button.
+
+00:00:18.630 --> 00:00:21.480 align:middle line:84%
+The first choice we need
+to make is the source.
+
+00:00:21.480 --> 00:00:24.990 align:middle line:84%
+For in-page Experiences, videos
+can reside in a Video Cloud
+
+00:00:24.990 --> 00:00:27.840 align:middle line:90%
+account or out on YouTube.
+
+00:00:27.840 --> 00:00:30.220 align:middle line:84%
+Note that before YouTube
+videos can be used,
+
+00:00:30.220 --> 00:00:32.700 align:middle line:84%
+you need to configure
+the YouTube settings.
+
+00:00:32.700 --> 00:00:36.120 align:middle line:84%
+This is done from the Settings
+link on the Gallery home page.
+
+00:00:36.120 --> 00:00:38.400 align:middle line:84%
+For this training, we're
+just going to use videos
+
+00:00:38.400 --> 00:00:40.960 align:middle line:90%
+in our Video Cloud account.
+
+00:00:40.960 --> 00:00:43.770 align:middle line:84%
+Next, you'll select the
+method for adding videos.
+
+00:00:43.770 --> 00:00:46.020 align:middle line:84%
+With Select Videos,
+you'll manually
+
+00:00:46.020 --> 00:00:49.230 align:middle line:84%
+pick and choose the videos
+to use in the Experience.
+
+00:00:49.230 --> 00:00:52.230 align:middle line:84%
+With Select Playlist,
+you'll select a playlist,
+
+00:00:52.230 --> 00:00:53.820 align:middle line:84%
+and all the videos
+in that playlist
+
+00:00:53.820 --> 00:00:56.220 align:middle line:90%
+will be added to the Experience.
+
+00:00:56.220 --> 00:00:59.940 align:middle line:84%
+With Use Reference ID, you'll
+provide a playlist reference
+
+00:00:59.940 --> 00:01:02.250 align:middle line:84%
+ID, and all the videos
+in that playlist
+
+00:01:02.250 --> 00:01:05.099 align:middle line:90%
+will be added to the Experience.
+
+00:01:05.099 --> 00:01:07.230 align:middle line:84%
+By using a playlist
+reference ID,
+
+00:01:07.230 --> 00:01:09.390 align:middle line:84%
+the videos in the
+Experience can easily
+
+00:01:09.390 --> 00:01:11.610 align:middle line:84%
+be changed by
+reassigning the reference
+
+00:01:11.610 --> 00:01:15.180 align:middle line:84%
+ID to another playlist
+using the Media module.
+
+00:01:15.180 --> 00:01:18.145 align:middle line:84%
+The Experience doesn't need
+to be edited and republished
+
+00:01:18.145 --> 00:01:19.770 align:middle line:84%
+when you need to
+change the videos that
+
+00:01:19.770 --> 00:01:23.560 align:middle line:90%
+appear in the Experience.
+
+00:01:23.560 --> 00:01:26.020 align:middle line:84%
+To remove videos,
+select the videos,
+
+00:01:26.020 --> 00:01:28.150 align:middle line:84%
+and click the Remove
+Videos button.
+
+00:01:28.150 --> 00:01:30.910 align:middle line:84%
+Or if you're using a
+playlist or playlist ID,
+
+00:01:30.910 --> 00:01:34.770 align:middle line:84%
+click the Remove
+Playlist button.
+
+00:01:34.770 --> 00:01:36.630 align:middle line:84%
+OK, let's look at
+how to add videos
+
+00:01:36.630 --> 00:01:40.160 align:middle line:90%
+to an in-page Experience.
+
+00:01:40.160 --> 00:01:43.310 align:middle line:84%
+I'm going to edit my
+Experience and then click
+
+00:01:43.310 --> 00:01:46.460 align:middle line:90%
+Videos in the left navigation.
+
+00:01:46.460 --> 00:01:51.350 align:middle line:84%
+I'll click Add Videos
+and then select a source.
+
+00:01:51.350 --> 00:01:53.900 align:middle line:84%
+Remember, you need to
+configure the YouTube settings
+
+00:01:53.900 --> 00:01:57.150 align:middle line:84%
+before YouTube can
+be used as a source.
+
+00:01:57.150 --> 00:01:58.820 align:middle line:84%
+I also like Video
+Cloud to use videos
+
+00:01:58.820 --> 00:02:01.400 align:middle line:90%
+in my Video Cloud account.
+
+00:02:01.400 --> 00:02:03.800 align:middle line:84%
+With the method set
+to Select Videos,
+
+00:02:03.800 --> 00:02:07.890 align:middle line:84%
+I can pick and choose the
+videos to add to the Experience.
+
+00:02:07.890 --> 00:02:10.759 align:middle line:84%
+This list of videos is
+configured to display the 100
+
+00:02:10.759 --> 00:02:13.100 align:middle line:90%
+most recently updated videos.
+
+00:02:13.100 --> 00:02:15.920 align:middle line:84%
+As you page down, more
+will be retrieved.
+
+00:02:15.920 --> 00:02:19.730 align:middle line:84%
+You can use the Search function
+to quickly find videos.
+
+00:02:19.730 --> 00:02:25.580 align:middle line:84%
+I'm going to select some
+videos and then click Add.
+
+00:02:25.580 --> 00:02:27.300 align:middle line:90%
+Pretty easy.
+
+00:02:27.300 --> 00:02:29.660 align:middle line:84%
+I can click Add Videos
+to add more videos
+
+00:02:29.660 --> 00:02:32.840 align:middle line:84%
+or select some videos
+and remove them.
+
+00:02:32.840 --> 00:02:35.165 align:middle line:84%
+I'm going to remove all the
+videos and use a playlist.
+
+00:02:35.165 --> 00:02:38.620 align:middle line:90%
+
+
+00:02:38.620 --> 00:02:41.740 align:middle line:84%
+This time, I'll choose the
+Select Playlist option.
+
+00:02:41.740 --> 00:02:45.130 align:middle line:84%
+This list is configured
+to display 20 playlists.
+
+00:02:45.130 --> 00:02:48.830 align:middle line:84%
+You can use the Search function
+to quickly find a playlist.
+
+00:02:48.830 --> 00:02:51.880 align:middle line:84%
+I'm going to select
+the "Animals" playlist.
+
+00:02:51.880 --> 00:02:54.850 align:middle line:84%
+Again, I can click Add videos
+to select something else
+
+00:02:54.850 --> 00:02:58.900 align:middle line:84%
+or remove playlists
+to remove the videos.
+
+00:02:58.900 --> 00:03:01.000 align:middle line:84%
+Hopefully you can see why
+earlier we check to make
+
+00:03:01.000 --> 00:03:03.280 align:middle line:90%
+sure our content was organized.
+
+00:03:03.280 --> 00:03:06.230 align:middle line:84%
+Everything was displaying
+in Gallery like I expected.
+
+00:03:06.230 --> 00:03:08.170 align:middle line:84%
+I didn't have to
+go upload videos
+
+00:03:08.170 --> 00:03:10.240 align:middle line:84%
+or organize videos
+into playlists
+
+00:03:10.240 --> 00:03:13.870 align:middle line:84%
+and then come back to add
+videos to my Experience.
+
+00:03:13.870 --> 00:03:16.580 align:middle line:84%
+Now that we're making some
+progress, in the next video,
+
+00:03:16.580 --> 00:03:20.340 align:middle line:84%
+we'll see how to preview
+and publish the Experience.
+
+00:03:20.340 --> 00:03:23.000 align:middle line:90%
