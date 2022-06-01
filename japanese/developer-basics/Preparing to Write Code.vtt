@@ -1,0 +1,99 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.580 align:middle line:90%
+
+
+00:00:05.580 --> 00:00:10.300 align:middle line:84%
+Hi, I'm Matt Boles, a learning
+specialist with Brightcove.
+
+00:00:10.300 --> 00:00:13.260 align:middle line:84%
+In this Developer
+Basics video, we're
+
+00:00:13.260 --> 00:00:18.300 align:middle line:84%
+going to prepare to write
+code that controls the player.
+
+00:00:18.300 --> 00:00:21.930 align:middle line:84%
+We are going to start with the
+advanced player implementation
+
+00:00:21.930 --> 00:00:25.140 align:middle line:84%
+code that publishes a video
+in a Brightcove player.
+
+00:00:25.140 --> 00:00:27.960 align:middle line:84%
+We want to put that
+in an HTML page
+
+00:00:27.960 --> 00:00:31.500 align:middle line:84%
+and prepare to write code
+to control the player.
+
+00:00:31.500 --> 00:00:35.850 align:middle line:84%
+Paste the code into the
+body of an HTML page.
+
+00:00:35.850 --> 00:00:39.480 align:middle line:84%
+Next, enter an ID for
+this video element.
+
+00:00:39.480 --> 00:00:42.900 align:middle line:84%
+This is needed to address
+the video object later
+
+00:00:42.900 --> 00:00:44.460 align:middle line:90%
+in JavaScript.
+
+00:00:44.460 --> 00:00:46.770 align:middle line:84%
+Now create a
+JavaScript block where
+
+00:00:46.770 --> 00:00:50.370 align:middle line:84%
+the actual player development
+code will be placed.
+
+00:00:50.370 --> 00:00:54.450 align:middle line:84%
+To talk to the video element,
+use the getPlayer method.
+
+00:00:54.450 --> 00:00:58.260 align:middle line:84%
+Here, the ID is used that
+was associated earlier
+
+00:00:58.260 --> 00:01:00.150 align:middle line:90%
+with the video element.
+
+00:01:00.150 --> 00:01:03.240 align:middle line:84%
+Create the structure for
+an anonymous function
+
+00:01:03.240 --> 00:01:07.500 align:middle line:84%
+that will be executed once
+the player is retrieved.
+
+00:01:07.500 --> 00:01:09.900 align:middle line:84%
+Next, a JavaScript
+variable is created
+
+00:01:09.900 --> 00:01:12.990 align:middle line:84%
+that is used in the code
+to talk to the player.
+
+00:01:12.990 --> 00:01:15.570 align:middle line:84%
+Assign the variable
+the "this" keyword,
+
+00:01:15.570 --> 00:01:17.820 align:middle line:90%
+which represents the player.
+
+00:01:17.820 --> 00:01:21.060 align:middle line:84%
+We have now created a standard
+best practice approach
+
+00:01:21.060 --> 00:01:25.730 align:middle line:84%
+to prepare for writing actual
+code to affect the player.
+
+00:01:25.730 --> 00:01:28.000 align:middle line:90%
