@@ -4,230 +4,220 @@ WEBVTT
 
 
 00:00:05.340 --> 00:00:07.680 align:middle line:84%
-In this Developer
-Basics video, we
+この開発者向け
+基本ビデオでは
 
 00:00:07.680 --> 00:00:10.050 align:middle line:84%
-are going to take
-a close look at all
+高度なプレーヤーおよび
+インページ・プレーヤーの
 
 00:00:10.050 --> 00:00:13.260 align:middle line:84%
-the attributes of the
-advanced or in-page player
+実装コードの全ての
+属性を
 
 00:00:13.260 --> 00:00:15.700 align:middle line:90%
-implementation code.
+詳しく見ていきます。
 
 00:00:15.700 --> 00:00:18.270 align:middle line:84%
-This code is commonly
-used, but there
+ほとんどのコードは一般的に
+使用されていますが
 
 00:00:18.270 --> 00:00:22.890 align:middle line:84%
-are a few attributes that almost
-no one thoroughly understands.
+いくつかの属性を
+完全に理解している人はほとんどいません。
 
 00:00:22.890 --> 00:00:26.010 align:middle line:84%
-Let's take a look at the
-player code copied from Studio
+では、動画を公開するために
+スタジオからコピーした
 
 00:00:26.010 --> 00:00:28.050 align:middle line:90%
-that publishes the video.
+プレーヤーのコードを見てみましょう。
 
 00:00:28.050 --> 00:00:30.930 align:middle line:84%
-The code has been formatted
-a bit using best practice
+このコードは、インデント規則の
+ベストプラクティスに従って、
 
 00:00:30.930 --> 00:00:33.390 align:middle line:90%
-indentation convention.
+少し体裁を整えてあります。
 
 00:00:33.390 --> 00:00:36.000 align:middle line:84%
-First, let's go quickly
-through the attributes
+まず、一般的に
+知られている属性について
 
 00:00:36.000 --> 00:00:38.550 align:middle line:90%
-that are commonly understood--
+簡単に見ていきましょう。
 
 00:00:38.550 --> 00:00:43.020 align:middle line:84%
-data-account for
-the account number,
+data-accountは、
+アカウント番号を指定します。
 
 00:00:43.020 --> 00:00:51.660 align:middle line:84%
-data-player for the player ID,
-data-video--id for the video ID
+data-playerは、プレーヤーIDを指定します。
+data-video--idは、プレーヤーに読み込む
 
 00:00:51.660 --> 00:00:56.880 align:middle line:84%
-of the video to load in the
-player, width and height,
+ビデオIDを指定します。
+widthとheightはプレーヤの幅と高さです。
 
 00:00:56.880 --> 00:01:01.170 align:middle line:84%
-data-playlist-id
-for the playlist
+data-playlist-idは、プレイリストIDを指定します。
 
 00:01:01.170 --> 00:01:07.560 align:middle line:84%
-ID that will work if the player
-is configured to play playlist.
+これはプレイリストを再生するように
+設定されている場合に動作します。
 
 00:01:07.560 --> 00:01:10.710 align:middle line:84%
-By the way, if you
-have a playlist ID,
+ちなみに
+プレイリストIDが指定されている場合、
 
 00:01:10.710 --> 00:01:14.010 align:middle line:84%
-you cannot also
-supply a video ID.
+ビデオIDを指定することはできません。
 
 00:01:14.010 --> 00:01:22.200 align:middle line:84%
-An error will result. You can
-use the data-playlist-video-id
+指定した場合、エラーになります。
+この場合、data-playlist-video-idを使用すると
 
 00:01:22.200 --> 00:01:23.670 align:middle line:90%
-with the playlist.
+プレイリストと一緒に指定することができます。
 
 00:01:23.670 --> 00:01:26.760 align:middle line:84%
-That attribute lets you
-set the initial video
+この属性で
+プレイリスト内で再生する
 
 00:01:26.760 --> 00:01:28.140 align:middle line:90%
-to play in the playlist.
+最初の動画を設定します。
 
 00:01:28.140 --> 00:01:31.170 align:middle line:84%
-It lets you pick any
-video in the playlist
+プレイリスト中から任意の
+ビデオを選んで、
 
 00:01:31.170 --> 00:01:34.560 align:middle line:84%
-to be the initial
-video that is played.
+最初に再生される
+の動画を指定することができます。
 
 00:01:34.560 --> 00:01:36.540 align:middle line:84%
-Now we get to look at
-some attributes that
+では、もう少し面白い属性と、
 
 00:01:36.540 --> 00:01:38.640 align:middle line:84%
-are a little more
-interesting, and one
+ほとんど使用されない
 
 00:01:38.640 --> 00:01:41.910 align:middle line:90%
-that is very rarely used.
+属性を見てみましょう。
 
 00:01:41.910 --> 00:01:46.020 align:middle line:84%
-The controls= the empty
-string attribute is a Boolean
+controls= 空文字列
+は真偽値属性で、
 
 00:01:46.020 --> 00:01:49.110 align:middle line:84%
-attribute which defines
-if the controls should
+プレーヤーに
+コントロールを
 
 00:01:49.110 --> 00:01:52.790 align:middle line:90%
-be shown in the player or not.
+表示するかどうかを定義します。
 
 00:01:52.790 --> 00:01:55.400 align:middle line:84%
-In earlier versions
-of the generated code,
+以前のバージョンで
+生成されたコードでは、
 
 00:01:55.400 --> 00:01:59.270 align:middle line:84%
-simply the word "controls"
-would appear with no equal sign
+単に "controls "という単語が
+等号と引用符なしで
 
 00:01:59.270 --> 00:02:01.480 align:middle line:90%
-and quote quote.
+表示されていました。
 
 00:02:01.480 --> 00:02:03.530 align:middle line:90%
-That still works, by the way.
+ちなみにこれでも動きます。
 
 00:02:03.530 --> 00:02:06.550 align:middle line:84%
-You can also have
-controls="fish,"
+また
+controls="fish," としても
 
 00:02:06.550 --> 00:02:07.630 align:middle line:90%
-and that works.
+動作します。
 
 00:02:07.630 --> 00:02:10.180 align:middle line:84%
-You can even say
-controls="false,"
+さらに
+controls="false, " としても
 
 00:02:10.180 --> 00:02:12.430 align:middle line:90%
-and the controls will show up.
+コントロールは表示されます。
 
 00:02:12.430 --> 00:02:14.620 align:middle line:84%
-If you don't want the
-controls to appear,
+コントロールを表示させたくない場合は、
 
 00:02:14.620 --> 00:02:19.930 align:middle line:84%
-simply remove any variation
-of that attribute.
+その属性のバリエーションを削除してください。
 
 00:02:19.930 --> 00:02:22.840 align:middle line:84%
-Next on the list of sometimes
-misunderstood attributes
+次に、
+誤解されやすい属性として
 
 00:02:22.840 --> 00:02:24.644 align:middle line:90%
-is data-application-id.
+data-application-id があります。
 
 00:02:24.644 --> 00:02:27.400 align:middle line:90%
 
 
 00:02:27.400 --> 00:02:29.860 align:middle line:90%
-This is for use with analytics.
+これはアナリティクスで使用するためのものです。
 
 00:02:29.860 --> 00:02:33.760 align:middle line:84%
-This attribute lets you use
-the same player on multiple web
+この属性を使用すると
+複数のWebページで
 
 00:02:33.760 --> 00:02:36.910 align:middle line:84%
-pages but get different
-player analytics
+同じプレーヤーを使用しても
+各ページでの使用に対して
 
 00:02:36.910 --> 00:02:40.300 align:middle line:90%
-data for its use on each page.
+異なるプレーヤー解析データを
+取得することができます。
 
 00:02:40.300 --> 00:02:43.600 align:middle line:84%
-For instance, you could have,
-on three different pages,
+例えば、以下のように
+3つの異なるページに
 
 00:02:43.600 --> 00:02:52.120 align:middle line:84%
-data-application-id="home," data
-application id="contact us,"
+data-application-id="home," 
+data-application-id="contact us,"
 
 00:02:52.120 --> 00:02:56.770 align:middle line:90%
-and data-application-id="faqs."
+data-application-id="faqs."を配置することが可能です。
 
 00:02:56.770 --> 00:03:02.530 align:middle line:84%
-The analytics would be reported
-separately for each HTML page,
+3つのページで同じプレーヤーが使われていても
+分析結果は、HTMLページごとに
 
 00:03:02.530 --> 00:03:06.610 align:middle line:84%
-even though the same player
-is used on all three pages.
+個別に報告されることになります。
 
 00:03:06.610 --> 00:03:09.430 align:middle line:84%
-This is very useful
-and regularly used
+これは非常に便利な機能で
 
 00:03:09.430 --> 00:03:12.430 align:middle line:90%
-for accurate player analytics.
+正確なプレイヤー分析としてよく使用されています。
 
 00:03:12.430 --> 00:03:16.150 align:middle line:84%
-The data-embed-attribute is
-very seldom used and therefore
+data-embed属性は、あまり使用されていないので
 
 00:03:16.150 --> 00:03:17.800 align:middle line:90%
-not well understood.
+よく理解されていない属性の１つです。
 
 00:03:17.800 --> 00:03:21.400 align:middle line:84%
-The attribute reflects
-parent-child relationships
+この属性はプレーヤーとの
+親子関係が
 
 00:03:21.400 --> 00:03:23.140 align:middle line:90%
-with players.
+反映される属性です。
 
 00:03:23.140 --> 00:03:26.380 align:middle line:84%
-That's it, and even probably
-more detail than you
+以上が、高度なプレーヤーの
 
 00:03:26.380 --> 00:03:29.110 align:middle line:84%
-wanted to know about the
-advanced player implementation
+実装コードについての
 
 00:03:29.110 --> 00:03:30.660 align:middle line:90%
-code.
+説明になります。
 
 00:03:30.660 --> 00:03:32.000 align:middle line:90%
