@@ -4,169 +4,168 @@ WEBVTT
 
 
 00:00:03.460 --> 00:00:06.130 align:middle line:84%
-In this Developer
-Basics video, we
+この開発者向け
+基本ビデオでは
 
 00:00:06.130 --> 00:00:09.340 align:middle line:84%
-are going to gain knowledge
-of the little-used or known
+あまり使われていない、
+あるいは知られていない
 
 00:00:09.340 --> 00:00:14.290 align:middle line:84%
-data-embed attribute of the
-advanced player implementation
+高度なプレーヤー実装コードである
+data-embed属性について
 
 00:00:14.290 --> 00:00:15.280 align:middle line:90%
-code.
+説明していきます。
 
 00:00:15.280 --> 00:00:19.240 align:middle line:84%
-This attribute always appears
-in the advanced player code,
+この属性はアドバンスト・プレーヤーの
+コードに必ず含まれますが
 
 00:00:19.240 --> 00:00:22.270 align:middle line:90%
-but few understand its purpose.
+その用途を理解している人は
+ほとんどいないでしょう。
 
 00:00:22.270 --> 00:00:25.930 align:middle line:84%
-The data-embed attribute is
-very seldom used, and therefore,
+data-embed属性は滅多に
+使用されることがない為、
 
 00:00:25.930 --> 00:00:27.550 align:middle line:90%
-not well understood.
+よく理解されていません。
 
 00:00:27.550 --> 00:00:31.180 align:middle line:84%
-The attribute reflects
-parent-child relationships
+この属性は、プレーヤーの
+親子関係を反映した
 
 00:00:31.180 --> 00:00:32.740 align:middle line:90%
-with players.
+属性になります。
 
 00:00:32.740 --> 00:00:35.200 align:middle line:84%
-Imagine if you have
-a website and you
+もし、あなたがwebサイトを持っており、
+他のプレーヤーに影響を与える
 
 00:00:35.200 --> 00:00:39.790 align:middle line:84%
-want to have a base player which
-influences all other players.
+ベースとなるプレーヤーを
+持ちたいとします。
 
 00:00:39.790 --> 00:00:43.540 align:middle line:84%
-You could set up a parent,
-or default, player, then
-
+親もしくはデフォルトの
+プレーヤーを設定し、
 00:00:43.540 --> 00:00:47.710 align:middle line:84%
-make children, or
-embeds, of that parent.
+子およびエンベッドを
+作成すことが出来ます。
 
 00:00:47.710 --> 00:00:50.320 align:middle line:84%
-Changes you make to
-the parent player
+親プレーヤーに
+加えた変更は、
 
 00:00:50.320 --> 00:00:53.620 align:middle line:84%
-will be inherited
-by child players.
+子プレーヤーに
+引き継ぐことが出来ます。
 
 00:00:53.620 --> 00:00:57.190 align:middle line:84%
-Child players can
-modify inherited changes
+子プレーヤーは、受け継いだ
+変更を修正したり、
 
 00:00:57.190 --> 00:01:00.760 align:middle line:84%
-or add more player
-configuration.
+プレーヤー設定を追加で
+行うことが出来ます。
 
 00:01:00.760 --> 00:01:04.569 align:middle line:84%
-Let's look quickly at the
-document covering embeds.
+エンベデッドに関する
+ドキュメントを見てみましょう。
 
 00:01:04.569 --> 00:01:06.940 align:middle line:84%
-This diagram shows
-the inheritance
+この図は、子プレーヤーへの
+継承を示したもので、
 
 00:01:06.940 --> 00:01:11.380 align:middle line:84%
-to the child players, while
-one child adds to the player
+一方の子は
+プレーヤー設定を追加し、
 
 00:01:11.380 --> 00:01:14.050 align:middle line:84%
-and the other child
-overrides the shape
+もう一方の子は
+大きな再生ボタンの
 
 00:01:14.050 --> 00:01:17.040 align:middle line:90%
-of the big Play button.
+形状をオーバーライドしています。
 
 00:01:17.040 --> 00:01:20.190 align:middle line:84%
-The second diagram shows the
-poster, the image that it
+2つ目の図では、
+動画再生前に表示されていた
 
 00:01:20.190 --> 00:01:24.030 align:middle line:84%
-displayed before the video
-plays, is changed from a field
+ポスター画像を
+親プレーヤーで
 
 00:01:24.030 --> 00:01:26.070 align:middle line:90%
-to a flower in the parent.
+畑から花に変更したものです。
 
 00:01:26.070 --> 00:01:30.630 align:middle line:84%
-Note that the change is
-inherited by both children.
+なお、この変更は両方の
+子に継承されています。
 
 00:01:30.630 --> 00:01:32.820 align:middle line:84%
-Lastly, you can
-tell if a player is
+最後に、プレーヤーが
+親であるか子であるかは、
 
 00:01:32.820 --> 00:01:37.650 align:middle line:84%
-a parent or child by the value
-for the data-embed attribute.
+data-embed属性の
+値で判断することが出来ます。
 
 00:01:37.650 --> 00:01:40.800 align:middle line:84%
-If the value of the
-attribute is default,
+属性値が
+defaultの場合
+
 
 00:01:40.800 --> 00:01:42.540 align:middle line:90%
-the player is a parent.
+プレーヤーが親であることを示します。
 
 00:01:42.540 --> 00:01:46.830 align:middle line:84%
-Note that in player embed speak,
-the player can be a parent
+また、プレーヤーは親であっても、
 
 00:01:46.830 --> 00:01:49.200 align:middle line:90%
-but not have any children.
+子を持たないことも出来ます。
 
 00:01:49.200 --> 00:01:53.040 align:middle line:84%
-If the value of
-data-embed is not default,
+data-embedの値が
+defaultでない場合、
 
 00:01:53.040 --> 00:01:56.970 align:middle line:84%
-it reflects the ID
-of the parent player.
+親プレーヤーの
+IDが反映されます。
 
 00:01:56.970 --> 00:02:01.920 align:middle line:84%
-Note that the data-player
-attribute, the actual player
+なお、実際のプレーヤーIDである
+data-player属性は、
 
 00:02:01.920 --> 00:02:05.100 align:middle line:90%
-ID, is the same in both cases.
+どちらも同じ値になります。
 
 00:02:05.100 --> 00:02:07.890 align:middle line:84%
-One other insight
-into using embeds,
+もう一点、エンベッドを
+使用する際の注意点として、
 
 00:02:07.890 --> 00:02:13.170 align:middle line:84%
-and that is child players
-do not appear in Studio.
+子プレーヤーがStudioに
+表示されないことが挙げられます。
 
 00:02:13.170 --> 00:02:15.900 align:middle line:84%
-If you wish to alter
-them in some way,
+何らかの方法で
+変更したい場合は、
 
 00:02:15.900 --> 00:02:21.930 align:middle line:84%
-you must use the player
-management API to do so.
+プレーヤー管理APIを
+使用する必要があります。
 
 00:02:21.930 --> 00:02:24.150 align:middle line:84%
-Now you've joined
-the select club
+これで、あなたも
+data-embed player属性を
 
 00:02:24.150 --> 00:02:28.560 align:middle line:84%
-of those who actually
-understand the data-embed player
+理解している人たちの
 
 00:02:28.560 --> 00:02:30.410 align:middle line:90%
-attribute.
+仲間入りが出来ました。
 
 00:02:30.410 --> 00:02:33.000 align:middle line:90%
