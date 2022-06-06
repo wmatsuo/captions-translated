@@ -4,166 +4,167 @@ WEBVTT
 
 
 00:00:05.190 --> 00:00:08.220 align:middle line:84%
-Since this video is about
-converting code that somehow
+この動画では、Brightcoveプレーヤー
+の機能を何らかの形で拡張する
 
 00:00:08.220 --> 00:00:10.740 align:middle line:84%
-enhances the functionality
-of Brightcove player
+コードをカスタムプラグインに
+変換するものなので
 
 00:00:10.740 --> 00:00:15.090 align:middle line:84%
-into a custom plugin, we
-need to start with some code.
+いくつかのコードから
+始めていく必要があります。
 
 00:00:15.090 --> 00:00:18.060 align:middle line:84%
-Although the actual code
-functionality is not
+実際のコードの機能性が
+この動画の目的ではありませんが、
 
 00:00:18.060 --> 00:00:20.070 align:middle line:84%
-the purpose of the
-video, we still
+それでも意味のある
+コードから
 
 00:00:20.070 --> 00:00:23.100 align:middle line:84%
-want to start with
-something meaningful--
+始めたいと思います。
+最初に見ていくコードでは、
+
 
 00:00:23.100 --> 00:00:26.640 align:middle line:84%
-in this case, the starting
-code adds Reverse and Forward
+プレーヤーに「戻る」と
+「進む」ボタンを
 
 00:00:26.640 --> 00:00:28.080 align:middle line:90%
-buttons to the player.
+追加しています。
 
 00:00:28.080 --> 00:00:31.170 align:middle line:84%
-In this case, the buttons jump
-the current time of the video
+この例で、ボタンは
+動画の現在時刻の5秒後、
 
 00:00:31.170 --> 00:00:33.630 align:middle line:90%
-forward or backwards 5 seconds.
+または5秒前に移動します。
 
 00:00:33.630 --> 00:00:38.580 align:middle line:84%
-The amount of the jump is,
-of course, programmable.
+移動する量はプログラムに
+よって変更可能です。
 
 00:00:38.580 --> 00:00:42.330 align:middle line:84%
-Here, we see the code on one
-page that adds the buttons.
+これは、ボタンを追加するコードが
+１つのページに記述されています。
 
 00:00:42.330 --> 00:00:46.410 align:middle line:84%
-In addition to the video tag,
-there is CSS and JavaScript
+videoタグの他に、
+機能を追加する
 
 00:00:46.410 --> 00:00:50.040 align:middle line:90%
-that adds the functionality.
+CSSとJavaScriptがあります。
 
 00:00:50.040 --> 00:00:52.410 align:middle line:84%
-First, we'll need
-empty files, in which
+まず、空のファイルが必要です。
+このファイルには
 
 00:00:52.410 --> 00:00:55.320 align:middle line:84%
-to place the CSS and
-JavaScript once they are
+１つのページに記述された
+CSSとJavaScriptを
 
 00:00:55.320 --> 00:00:57.960 align:middle line:90%
-moved from the one-page code.
+それぞれのファイルに配置します。
 
 00:00:57.960 --> 00:01:03.970 align:middle line:84%
-Now copy the CSS, minus the
-style tags, into the CSS file.
+CSSからstyleタグを除いたCSSを
+CSSファイルにコピーして下さい。
 
 00:01:03.970 --> 00:01:07.380 align:middle line:84%
-Next, grab all the JavaScript
-between the script tags
+次に、scriptタグの間にある
+全てのJavaScriptを
 
 00:01:07.380 --> 00:01:10.020 align:middle line:90%
-and put it into the JS file.
+JSファイルにコピーします。
 
 00:01:10.020 --> 00:01:12.330 align:middle line:84%
-There is one change
-we need to make.
+一箇所だけ、変更する
+必要があります。
 
 00:01:12.330 --> 00:01:15.510 align:middle line:84%
-In nearly all code
-that alters the player,
+プレーヤーを変更する
+ほぼ全てのコードで、
 
 00:01:15.510 --> 00:01:18.030 align:middle line:84%
-there will be a line
-that uses the getPlayer
+getPlayerメソッドを
+使用する行があり、
 
 00:01:18.030 --> 00:01:23.340 align:middle line:84%
-method, which lets us get a
-handle on the video element.
+これによりvideo要素を
+把握することが出来ますが、
 
 00:01:23.340 --> 00:01:25.740 align:middle line:84%
-For a plugin, you
-remove that line
+プラグインの場合、
+このコード行を削除します。
 
 00:01:25.740 --> 00:01:28.320 align:middle line:84%
-of code, and at the
-top of the JavaScript,
+JavaScriptの最上部に、
+Brightcoveプレーヤー
 
 00:01:28.320 --> 00:01:33.330 align:middle line:84%
-use a code that defines a
-Brightcove player plugin.
+プラグインを定義する
+コードを記述します。
 
 00:01:33.330 --> 00:01:36.360 align:middle line:84%
-This code uses the
-registerPlugin method
+このコードでは、
+registerPluginメソッドを
 
 00:01:36.360 --> 00:01:39.900 align:middle line:84%
-and also defines the
-name of the plugin.
+使用し、プラグイン名を
+定義しています。
 
 00:01:39.900 --> 00:01:42.930 align:middle line:84%
-Now we need to use the new
-files that have been created
+作成された新しい
+ファイルを使用して
 
 00:01:42.930 --> 00:01:46.800 align:middle line:84%
-and be sure the
-buttons still work.
+ボタンが動作することを
+確認します。
 
 00:01:46.800 --> 00:01:50.250 align:middle line:84%
-We'll remove the style
-tags and use a link tag
+styleタグを削除して
+linkタグでCSSを
 
 00:01:50.250 --> 00:01:52.950 align:middle line:90%
-to pull in the CSS.
+引っ張ってくるようにします。
 
 00:01:52.950 --> 00:01:56.270 align:middle line:84%
-Next, use a script tag to
-pull in the JavaScript.
+次に、scriptタグを使って
+JavaScriptを取り込みます。
 
 00:01:56.270 --> 00:02:02.160 align:middle line:90%
 
 
 00:02:02.160 --> 00:02:06.600 align:middle line:84%
-Lastly, alter the script block,
-so after we assign the myPlayer
+最後に、スクリプトブロックを
+変更し、変数myPlayerを
 
 00:02:06.600 --> 00:02:08.789 align:middle line:84%
-variable, the
-reference to the player
+代入した後、
+プレーヤーへの参照は
 
 00:02:08.789 --> 00:02:11.430 align:middle line:84%
-will call the name
-of the plugin, which
+backForwardButtonsと
+設定した、プラグイン名を
 
 00:02:11.430 --> 00:02:14.790 align:middle line:90%
-we set to backForwardButtons.
+呼び出すようにします。
 
 00:02:14.790 --> 00:02:16.800 align:middle line:84%
-All right, let's
-be sure it works.
+それでは動作
+確認をしましょう。
 
 00:02:16.800 --> 00:02:20.910 align:middle line:84%
-We're going to refresh the
-page so we get our changes,
+ページを更新し、
+変更を反映させ、
 
 00:02:20.910 --> 00:02:25.050 align:middle line:84%
-play the video, and
-yep, it still works.
+ビデオを再生してみます。
+はい、動きますね。
 
 00:02:25.050 --> 00:02:26.600 align:middle line:90%
-Great.
+素晴らしい。
 
 00:02:26.600 --> 00:02:31.000 align:middle line:90%
