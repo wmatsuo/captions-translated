@@ -4,172 +4,175 @@ WEBVTT
 
 
 00:00:05.250 --> 00:00:09.030 align:middle line:84%
-Custom plugins can be written
-to accept data that customizes
+カスタムプラグインは、プラグインの
+動作をカスタマイズする
 
 00:00:09.030 --> 00:00:11.910 align:middle line:90%
-the plugin's behavior.
+データを受け取れるように
+記述することが出来ます。
 
 00:00:11.910 --> 00:00:13.920 align:middle line:84%
-As you'll see in
-this video, it is
+このビデオでご覧頂ける
+ように
 
 00:00:13.920 --> 00:00:19.690 align:middle line:84%
-much like passing data to a
-function in normal JavaScript.
+通常のJavaScriptで関数にデータを
+渡すのとよく似ています。
 
 00:00:19.690 --> 00:00:22.910 align:middle line:84%
-Here, you see a
-simple custom plugin.
+ここにあるのはシンプルな
+カスタムプラグインです。
 
 00:00:22.910 --> 00:00:25.810 align:middle line:84%
-The plugin redirects the
-browser to a new page
+このプラグインでは
+動画終了時にブラウザを
 
 00:00:25.810 --> 00:00:28.480 align:middle line:90%
-when the video ends.
+新しいページにリダイレクトします。
 
 00:00:28.480 --> 00:00:31.510 align:middle line:84%
-Note that when the page to
-which the browser redirects
+なお、ブラウザのリダイレクト先の
+ページがパラメータとして渡された
 
 00:00:31.510 --> 00:00:34.240 align:middle line:90%
-is passed as a parameter.
+場合、そのページが表示されます。
 
 00:00:34.240 --> 00:00:37.840 align:middle line:84%
-The plugin accepts a parameter
-in the anonymous function
+プラグインは、プラグインが
+定義されている無名関数の
 
 00:00:37.840 --> 00:00:41.320 align:middle line:90%
-where the plugin is defined.
+パラメータを受け取ります。
 
 00:00:41.320 --> 00:00:44.920 align:middle line:84%
-Convention has it the
-object is named "options,"
+慣例では、オブジェクトの
+名前は「オプション」とされていますが、
 
 00:00:44.920 --> 00:00:47.880 align:middle line:90%
-but it's not required.
+必須ではありません。
 
 00:00:47.880 --> 00:00:50.400 align:middle line:84%
-The properties of the
-object passed to the plugin
+そして、プラグインに渡された
+オブジェクトのプロパティを
 
 00:00:50.400 --> 00:00:52.770 align:middle line:90%
-can then be used.
+利用することが出来ます。
 
 00:00:52.770 --> 00:00:56.640 align:middle line:84%
-The options.redirectURL
-property value
+options.redirectURL
+プロパティ値は、
 
 00:00:56.640 --> 00:00:58.950 align:middle line:90%
-is used in the redirection.
+リダイレクトに使用されます。
 
 00:00:58.950 --> 00:01:01.570 align:middle line:90%
 
 
 00:01:01.570 --> 00:01:05.019 align:middle line:84%
-On the HTML page where the
-custom plugin is called,
+カスタムプラグインが
+呼び出されるHTMLページでは、
 
 00:01:05.019 --> 00:01:07.870 align:middle line:84%
-we first use
-standard code to link
+まず、標準コードを
+使用してプラグインの
 
 00:01:07.870 --> 00:01:10.690 align:middle line:90%
-to the plugin's JavaScript.
+JavaScriptにリンクします。
 
 00:01:10.690 --> 00:01:15.850 align:middle line:84%
-By the way, there is no CSS
-needed for this custom plugin.
+ちなみに、このカスタムプラグインには、
+CSSは必要ありません。
 
 00:01:15.850 --> 00:01:18.190 align:middle line:84%
-In the script block,
-where we place code
+プレーヤーに影響を与える
+コードを記述する
 
 00:01:18.190 --> 00:01:22.750 align:middle line:84%
-to affect the player,
-a variable is created.
+スクリプトブロックに
+変数が作成されます。
 
 00:01:22.750 --> 00:01:24.620 align:middle line:84%
-The variable is
-called "options,"
+この変数は「options」と
+呼ばれ
 
 00:01:24.620 --> 00:01:29.770 align:middle line:84%
-which is a JavaScript Object
-that is passed to the plugin.
+プラグインに渡される
+JavaScriptオブジェクトです。
 
 00:01:29.770 --> 00:01:34.870 align:middle line:84%
-For this plugin, we only define
-one property named redirectURL,
+このプラグインでは、redirectURLという
+プロパティを1つだけ定義していますが、
 
 00:01:34.870 --> 00:01:39.910 align:middle line:84%
-which must match the property
-name used in the plugin.
+これはプラグインで使用されている
+プロパティ名と一致させる必要があります。
 
 00:01:39.910 --> 00:01:42.550 align:middle line:84%
-This object contains
-only one property,
+このオブジェクトには
+1つのプロパティしか
 
 00:01:42.550 --> 00:01:45.490 align:middle line:84%
-but the options object can
-have as many properties
+含まれていませんが、options
+オブジェクトには、プラグインが
 
 00:01:45.490 --> 00:01:48.220 align:middle line:90%
-as the plugin requires.
+必要とする数のプロパティを
+含めることが出来ます。
 
 00:01:48.220 --> 00:01:51.250 align:middle line:84%
-Now when calling the
-custom plugin named
+これで、navigateOnVideoEnd
+という名前のカスタムプラグインを
 
 00:01:51.250 --> 00:01:57.130 align:middle line:84%
-navigateOnVideoEnd, you
-pass the options object.
+呼び出す時にoptions
+オブジェクトを渡します。
 
 00:01:57.130 --> 00:01:58.210 align:middle line:90%
-That's it for the code.
+コードについては以上になります。
 
 00:01:58.210 --> 00:02:00.880 align:middle line:90%
-Let's test to be sure it works.
+それでは機能するか
+テストしてみましょう。
 
 00:02:00.880 --> 00:02:04.540 align:middle line:84%
-We'll browse the HTML page,
-and when the video ends,
+HTMLページを閲覧し、
+動画が終了すると、
 
 00:02:04.540 --> 00:02:07.600 align:middle line:84%
-the redirect takes us
-to the page specified
+objectsプロパティで
+指定されたページに
 
 00:02:07.600 --> 00:02:10.550 align:middle line:90%
-in the objects property.
+リダイレクトされます。
 
 00:02:10.550 --> 00:02:15.220 align:middle line:84%
-Note that you can pass data
-to a plugin using Studio.
+なお、Studioを使用してプラグインに
+データを渡すことが出来ます。
 
 00:02:15.220 --> 00:02:18.970 align:middle line:84%
-Here, you see the configuration
-screen for the custom plugin
+これは、これまで使用してきた
+カスタムプラグインの設定
 
 00:02:18.970 --> 00:02:20.620 align:middle line:90%
-we have been using.
+画面を表示しています。
 
 00:02:20.620 --> 00:02:24.490 align:middle line:84%
-To pass data, place
-the options object
+データを渡すには、オプションの
+オブジェクト定義を
 
 00:02:24.490 --> 00:02:30.280 align:middle line:84%
-definition in the Options
-parentheses JSON form field.
+オプションの括弧のJSON
+フォームフィールドに配置します。
 
 00:02:30.280 --> 00:02:34.630 align:middle line:84%
-Then, when using the player, the
-custom plugin's functionality
+プレーヤーを使用する場合、
+カスタムプラグインの機能は、
 
 00:02:34.630 --> 00:02:40.000 align:middle line:84%
-is part of the player, and you
-need no other code on the page
+プレーヤーの一部であり、
+ページにはvideoタグ以外の
 
 00:02:40.000 --> 00:02:42.900 align:middle line:90%
-other than the video tag.
+他のコードは必要ありません。
 
 00:02:42.900 --> 00:02:46.000 align:middle line:90%
