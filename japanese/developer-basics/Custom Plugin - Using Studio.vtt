@@ -4,106 +4,109 @@ WEBVTT
 
 
 00:00:05.280 --> 00:00:09.390 align:middle line:84%
-Once you have a custom plugin
-written and the correct CSS
+カスタムプラグインを記述し、
+CSSとJavaScriptファイルを
 
 00:00:09.390 --> 00:00:12.570 align:middle line:84%
-and JavaScript files
-created, it's time to use it.
+作成したら、それらを
+実装していきます。
 
 00:00:12.570 --> 00:00:13.980 align:middle line:90%
-You have two choices--
+Studioでプラグイン
+を実装するか、
 
 00:00:13.980 --> 00:00:18.150 align:middle line:84%
-implementing the plugin
-in Studio or via code.
+コードで実装するか、
+2つの選択肢があります。
 
 00:00:18.150 --> 00:00:20.280 align:middle line:84%
-The nice thing
-about using Studio
+Studioを使用する
+利点は、プレーヤーを
 
 00:00:20.280 --> 00:00:22.710 align:middle line:84%
-is that you need no
-other code on the page
+使用するページに
+他のコードが
 
 00:00:22.710 --> 00:00:24.690 align:middle line:90%
-on which the player is used.
+必要ない事です。
 
 00:00:24.690 --> 00:00:27.960 align:middle line:84%
-What you sacrifice is
-easier modification.
+一方、修正がしにくい
+という点があります。
 
 00:00:27.960 --> 00:00:30.720 align:middle line:84%
-When you implement a
-custom plugin in code,
+カスタムプラグインを
+コードで実装する場合、
 
 00:00:30.720 --> 00:00:33.270 align:middle line:84%
-it's easier to pass
-data to the plugin
+プラグインがオプションを
+受け付けるように
 
 00:00:33.270 --> 00:00:35.640 align:middle line:84%
-than if you implement
-it in Studio--
+記述されている場合よりも、
+プラグインに
 
 00:00:35.640 --> 00:00:41.310 align:middle line:84%
-that is, if the plugin is
-written to accept options.
+データを渡すのが
+容易になります。
 
 00:00:41.310 --> 00:00:45.630 align:middle line:84%
-Let's implement a
-custom plugin in Studio.
+それでは、Studioにカスタムプラグイン
+を実装してみましょう。
 
 00:00:45.630 --> 00:00:48.750 align:middle line:84%
-I will go to Studio's
-Players module
+Studioの
+Playerモジュールで
+
 
 00:00:48.750 --> 00:00:51.780 align:middle line:84%
-and either create a
-new player or choose
+新規プレーヤーを
+作成するか、
+
 
 00:00:51.780 --> 00:00:57.090 align:middle line:84%
-an existing player in which
-to implement the plugin.
+プラグインを実装する既存の
+プレーヤーを選択します。
 
 00:00:57.090 --> 00:01:02.340 align:middle line:84%
-Once in the Players properties,
-click on the Plugin section.
+プレーヤーのプロパティに移動したら
+「プロパティ」の項目をクリックします。
 
 00:01:02.340 --> 00:01:06.090 align:middle line:84%
-In the UI for plugins, we
-will add a custom plugin.
+プラグインのUIで
+カスタムプラグインを追加します。
 
 00:01:06.090 --> 00:01:08.990 align:middle line:90%
 
 
 00:01:08.990 --> 00:01:17.420 align:middle line:84%
-For our plugin, we'll provide
-a name, JavaScript URL,
+プラグインには、名前、
+JavaScriptのURL,
 
 00:01:17.420 --> 00:01:19.115 align:middle line:90%
-and the CSS URL.
+CSSのURLを指定します。
 
 00:01:19.115 --> 00:01:21.750 align:middle line:90%
 
 
 00:01:21.750 --> 00:01:27.330 align:middle line:84%
-This particular custom
-plugin uses no options.
+このカスタムプラグインでは、
+オプションは使用しません。
 
 00:01:27.330 --> 00:01:30.420 align:middle line:84%
-Now click Save,
-publish the player,
+次に、「保存」を
+クリックして
 
 00:01:30.420 --> 00:01:33.690 align:middle line:84%
-and the enhanced
-player is ready to go.
+プレーヤーを公開すると、拡張された
+プレーヤーが使用できるようになります。
 
 00:01:33.690 --> 00:01:36.750 align:middle line:84%
-Now remember, any time
-this player is used,
+このプレーヤーを使用する
+時は、常にカスタムプラグイン
 
 00:01:36.750 --> 00:01:41.720 align:middle line:84%
-it will now contain the
-custom plugin's functionality.
+の機能が含まれている事
+に注意してください。
 
 00:01:41.720 --> 00:01:45.000 align:middle line:90%
