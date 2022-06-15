@@ -4,96 +4,96 @@ WEBVTT
 
 
 00:00:05.580 --> 00:00:10.300 align:middle line:84%
-Hi, I'm Matt Boles, a learning
-specialist with Brightcove.
+Brightcoveラーニングスペシャリストの
+マット ボールズです。
 
 00:00:10.300 --> 00:00:13.260 align:middle line:84%
-In this Developer
-Basics video, we're
+この開発者向け
+基本ビデオでは
 
 00:00:13.260 --> 00:00:18.300 align:middle line:84%
-going to prepare to write
-code that controls the player.
+プレーヤーを制御するコードを
+作成する準備をしていきます。
 
 00:00:18.300 --> 00:00:21.930 align:middle line:84%
-We are going to start with the
-advanced player implementation
+では、Brightcoveプレーヤーで
+動画を公開するための、高度な
 
 00:00:21.930 --> 00:00:25.140 align:middle line:84%
-code that publishes a video
-in a Brightcove player.
+プレーヤー実装コードから
+始めていきましょう。
 
 00:00:25.140 --> 00:00:27.960 align:middle line:84%
-We want to put that
-in an HTML page
+コードをHTMLページに
+貼り付けて、
 
 00:00:27.960 --> 00:00:31.500 align:middle line:84%
-and prepare to write code
-to control the player.
+プレーヤーを制御する
+コードを記述する準備をします。
 
 00:00:31.500 --> 00:00:35.850 align:middle line:84%
-Paste the code into the
-body of an HTML page.
+HTMLページの本文に
+コードを貼り付けます。
 
 00:00:35.850 --> 00:00:39.480 align:middle line:84%
-Next, enter an ID for
-this video element.
+次に、このビデオ要素に
+対するIDを入力します。
 
 00:00:39.480 --> 00:00:42.900 align:middle line:84%
-This is needed to address
-the video object later
+これは、後でJavaScriptで
+videoオブジェクトをアドレス指定
 
 00:00:42.900 --> 00:00:44.460 align:middle line:90%
-in JavaScript.
+するために必要になります。
 
 00:00:44.460 --> 00:00:46.770 align:middle line:84%
-Now create a
-JavaScript block where
+続いて、実際のプレーヤー開発
+コードを配置する
 
 00:00:46.770 --> 00:00:50.370 align:middle line:84%
-the actual player development
-code will be placed.
+JavaScriptブロックを
+作成します。
 
 00:00:50.370 --> 00:00:54.450 align:middle line:84%
-To talk to the video element,
-use the getPlayer method.
+video要素と対話すために、
+getPlayerメソッドを使用します。
 
 00:00:54.450 --> 00:00:58.260 align:middle line:84%
-Here, the ID is used that
-was associated earlier
+ここで、先程video要素に
+関連付けられた
 
 00:00:58.260 --> 00:01:00.150 align:middle line:90%
-with the video element.
+IDが使用されます。
 
 00:01:00.150 --> 00:01:03.240 align:middle line:84%
-Create the structure for
-an anonymous function
+プレーヤーが取得されると
+実行される
 
 00:01:03.240 --> 00:01:07.500 align:middle line:84%
-that will be executed once
-the player is retrieved.
+無名関数の構造を
+作成します。
 
 00:01:07.500 --> 00:01:09.900 align:middle line:84%
-Next, a JavaScript
-variable is created
+次に、JavaScriptの
+変数を作成し、
 
 00:01:09.900 --> 00:01:12.990 align:middle line:84%
-that is used in the code
-to talk to the player.
+コード内でプレーヤーと
+会話するために使用します。
 
 00:01:12.990 --> 00:01:15.570 align:middle line:84%
-Assign the variable
-the "this" keyword,
+変数にプレーヤーを
+表す"this"キーワード 
 
 00:01:15.570 --> 00:01:17.820 align:middle line:90%
-which represents the player.
+割り当てます。
 
 00:01:17.820 --> 00:01:21.060 align:middle line:84%
-We have now created a standard
-best practice approach
+これで、プレーヤーに影響を
+与える、コードを記述するための
 
 00:01:21.060 --> 00:01:25.730 align:middle line:84%
-to prepare for writing actual
-code to affect the player.
+準備として、標準的なベストプラクティス
+アプローチが作成できました。
 
 00:01:25.730 --> 00:01:28.000 align:middle line:90%
